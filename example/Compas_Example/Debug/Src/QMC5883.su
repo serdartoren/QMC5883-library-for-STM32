@@ -1,0 +1,5 @@
+QMC5883.c:11:9:QMC_init	48	static
+QMC5883.c:31:9:QMC_read	40	static
+QMC5883.c:61:7:QMC_readHeading	16	static
+QMC5883.c:67:9:QMC_Standby	40	static
+QMC5883.c:73:9:QMC_Reset	40	static
