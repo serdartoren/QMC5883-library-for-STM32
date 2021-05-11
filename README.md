@@ -31,7 +31,7 @@ int main(void)
 | --- | --- |
 | uint8_t QMC_init(QMC_t *qmc,I2C_HandleTypeDef *i2c,uint8_t Output_Data_Rate) | It's configs to module for continuous mode |
 | uint8_t QMC_read(QMC_t *qmc) | It's writes readings to QMC_t type structure |
-| float   QMC_readHeading(QMC_t *qmc) | it's sımular with QMC_read() just gives heading angle as the return |
+| float   QMC_readHeading(QMC_t *qmc) | It's sımular with QMC_read() just gives heading angle as the return |
 | uint8_t QMC_Standby(QMC_t *qmc) | It's puts the module in standby mode. When you want use again you can use QMC_init(). |
 | uint8_t QMC_Reset(QMC_t *qmc) | It's do software reset to module |
 
