@@ -1,0 +1,1 @@
+# QMC5883-library-for-STM32
